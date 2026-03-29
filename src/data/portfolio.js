@@ -97,6 +97,13 @@ export const deployedApps = [
     liveUrl: "https://restaurant-frontend-tan.vercel.app/",
     image: null,
   },
+  {
+    title: "Online Project Version Tracker",
+    description: "Displays changes from previous versions of the project. Two versions of the projects should be uploaded as zip files.",
+    tags: ["React", "FastApi", "Sqlite"],
+    liveUrl: "https://zip-comparison-project-frontend.vercel.app/",
+    image: null,
+  },
   // Add more deployed apps here as:
   // {
   //   title: "App Name",
