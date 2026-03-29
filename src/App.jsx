@@ -8,6 +8,7 @@ import Certifications from './components/Certifications';
 import Achievements from './components/Achievements';
 import Extracurriculars from './components/Extracurriculars';
 import Contact from './components/Contact';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Extracurriculars />
         <Contact />
       </main>
+      <Analytics />
     </div>
   );
 }
